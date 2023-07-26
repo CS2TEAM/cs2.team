@@ -1,0 +1,60 @@
+@font-face {
+  font-family: "Stratum2";
+  src: url("assets/fonts/Stratum2.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+a:visited {
+  color: #fff;
+}
+
+body {
+  background-color: gray;
+  font-family: "Stratum2", Arial, sans-serif;
+}
+
+input,
+select,
+textarea {
+  padding: 10px 20px 10px 10px;
+  border-radius: 5px;
+  background-color: #3c3f46;
+  border: #50556e 2px solid;
+  color: #fff;
+  box-sizing: border-box;
+  font-size: 14px;
+  transition: border-color 0.1s ease, background-color 0.1s ease;
+}
+
+input:hover,
+select:hover {
+  border-color: #626988;
+}
+
+input:focus,
+select:hover {
+  border-color: #626988;
+  outline: none;
+}
+
+input::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}

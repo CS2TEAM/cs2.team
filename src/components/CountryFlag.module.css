@@ -1,0 +1,794 @@
+.countryFlag {
+  background-image: url(../assets/country-flag.png);
+  background-repeat: no-repeat;
+  width: 35px;
+  height: 23px;
+}
+
+.country-flag-liberia {
+  background-position: 0 0;
+}
+
+.country-flag-afghanistan {
+  background-position: 0 -23px;
+}
+
+.country-flag-algeria {
+  background-position: 0 -46px;
+}
+
+.country-flag-andorra {
+  background-position: 0 -69px;
+}
+
+.country-flag-antigua-and-barbuda {
+  background-position: 0 -92px;
+}
+
+.country-flag-argentina {
+  background-position: 0 -115px;
+}
+
+.country-flag-armenia {
+  background-position: 0 -138px;
+}
+
+.country-flag-australia {
+  background-position: 0 -161px;
+}
+
+.country-flag-austria {
+  background-position: 0 -184px;
+}
+
+.country-flag-azerbaijan {
+  background-position: 0 -207px;
+}
+
+.country-flag-bahamas {
+  background-position: 0 -230px;
+}
+
+.country-flag-bahrain {
+  background-position: 0 -253px;
+}
+
+.country-flag-bangladesh {
+  background-position: 0 -276px;
+}
+
+.country-flag-barbados {
+  background-position: 0 -299px;
+}
+
+.country-flag-belarus {
+  background-position: 0 -322px;
+}
+
+.country-flag-belgium {
+  background-position: 0 -345px;
+}
+
+.country-flag-belize {
+  background-position: 0 -368px;
+}
+
+.country-flag-benin {
+  background-position: 0 -391px;
+}
+
+.country-flag-bhutan {
+  background-position: 0 -414px;
+}
+
+.country-flag-bolivia {
+  background-position: 0 -437px;
+}
+
+.country-flag-bosnia-and-herzegovina {
+  background-position: 0 -460px;
+}
+
+.country-flag-botswana {
+  background-position: 0 -483px;
+}
+
+.country-flag-brazil {
+  background-position: 0 -506px;
+}
+
+.country-flag-brunei {
+  background-position: 0 -529px;
+}
+
+.country-flag-bulgaria {
+  background-position: 0 -552px;
+}
+
+.country-flag-burkina-faso {
+  background-position: 0 -575px;
+}
+
+.country-flag-burundi {
+  background-position: 0 -598px;
+}
+
+.country-flag-cambodia {
+  background-position: 0 -621px;
+}
+
+.country-flag-cameroon {
+  background-position: 0 -644px;
+}
+
+.country-flag-canada {
+  background-position: 0 -667px;
+}
+
+.country-flag-cape-verde {
+  background-position: 0 -690px;
+}
+
+.country-flag-central-african-republic {
+  background-position: 0 -713px;
+}
+
+.country-flag-chad {
+  background-position: 0 -736px;
+}
+
+.country-flag-chile {
+  background-position: 0 -759px;
+}
+
+.country-flag-china {
+  background-position: 0 -782px;
+}
+
+.country-flag-colombia {
+  background-position: 0 -805px;
+}
+
+.country-flag-comoros {
+  background-position: 0 -828px;
+}
+
+.country-flag-congo-kinshasa {
+  background-position: 0 -851px;
+}
+
+.country-flag-congo-brazzaville {
+  background-position: 0 -874px;
+}
+
+.country-flag-costa-rica {
+  background-position: 0 -897px;
+}
+
+.country-flag-cote-divoire {
+  background-position: 0 -920px;
+}
+
+.country-flag-croatia {
+  background-position: 0 -943px;
+}
+
+.country-flag-cuba {
+  background-position: 0 -966px;
+}
+
+.country-flag-cyprus {
+  background-position: 0 -989px;
+}
+
+.country-flag-czech-republic {
+  background-position: 0 -1012px;
+}
+
+.country-flag-denmark {
+  background-position: 0 -1035px;
+}
+
+.country-flag-djibouti {
+  background-position: 0 -1058px;
+}
+
+.country-flag-dominican-republic {
+  background-position: 0 -1081px;
+}
+
+.country-flag-dominica {
+  background-position: 0 -1104px;
+}
+
+.country-flag-east-timor {
+  background-position: 0 -1127px;
+}
+
+.country-flag-ecuador {
+  background-position: 0 -1150px;
+}
+
+.country-flag-egypt {
+  background-position: 0 -1173px;
+}
+
+.country-flag-el-salvador {
+  background-position: 0 -1196px;
+}
+
+.country-flag-equatorial-guinea {
+  background-position: 0 -1219px;
+}
+
+.country-flag-eritrea {
+  background-position: 0 -1242px;
+}
+
+.country-flag-estonia {
+  background-position: 0 -1265px;
+}
+
+.country-flag-ethiopia {
+  background-position: 0 -1288px;
+}
+
+.country-flag-fiji {
+  background-position: 0 -1311px;
+}
+
+.country-flag-finland {
+  background-position: 0 -1334px;
+}
+
+.country-flag-france {
+  background-position: 0 -1357px;
+}
+
+.country-flag-gabon {
+  background-position: 0 -1380px;
+}
+
+.country-flag-gambia {
+  background-position: 0 -1403px;
+}
+
+.country-flag-georgia {
+  background-position: 0 -1426px;
+}
+
+.country-flag-germany {
+  background-position: 0 -1449px;
+}
+
+.country-flag-ghana {
+  background-position: 0 -1472px;
+}
+
+.country-flag-greece {
+  background-position: 0 -1495px;
+}
+
+.country-flag-grenada {
+  background-position: 0 -1518px;
+}
+
+.country-flag-guatemala {
+  background-position: 0 -1541px;
+}
+
+.country-flag-guinea-bissau {
+  background-position: 0 -1564px;
+}
+
+.country-flag-guinea {
+  background-position: 0 -1587px;
+}
+
+.country-flag-guyana {
+  background-position: 0 -1610px;
+}
+
+.country-flag-haiti {
+  background-position: 0 -1633px;
+}
+
+.country-flag-honduras {
+  background-position: 0 -1656px;
+}
+
+.country-flag-hungary {
+  background-position: 0 -1679px;
+}
+
+.country-flag-iceland {
+  background-position: 0 -1702px;
+}
+
+.country-flag-india {
+  background-position: 0 -1725px;
+}
+
+.country-flag-indonesia {
+  background-position: 0 -1748px;
+}
+
+.country-flag-iran {
+  background-position: 0 -1771px;
+}
+
+.country-flag-iraq {
+  background-position: 0 -1794px;
+}
+
+.country-flag-ireland {
+  background-position: 0 -1817px;
+}
+
+.country-flag-israel {
+  background-position: 0 -1840px;
+}
+
+.country-flag-italy {
+  background-position: 0 -1863px;
+}
+
+.country-flag-jamaica {
+  background-position: 0 -1886px;
+}
+
+.country-flag-japan {
+  background-position: 0 -1909px;
+}
+
+.country-flag-jordan {
+  background-position: 0 -1932px;
+}
+
+.country-flag-kazakhstan {
+  background-position: 0 -1955px;
+}
+
+.country-flag-kenya {
+  background-position: 0 -1978px;
+}
+
+.country-flag-kiribati {
+  background-position: 0 -2001px;
+}
+
+.country-flag-north-korea {
+  background-position: 0 -2024px;
+}
+
+.country-flag-south-korea {
+  background-position: 0 -2047px;
+}
+
+.country-flag-kosovo {
+  background-position: 0 -2070px;
+}
+
+.country-flag-kuwait {
+  background-position: 0 -2093px;
+}
+
+.country-flag-kyrgyzstan {
+  background-position: 0 -2116px;
+}
+
+.country-flag-laos {
+  background-position: 0 -2139px;
+}
+
+.country-flag-latvia {
+  background-position: 0 -2162px;
+}
+
+.country-flag-lebanon {
+  background-position: 0 -2185px;
+}
+
+.country-flag-lesotho {
+  background-position: 0 -2208px;
+}
+
+.country-flag-albania {
+  background-position: 0 -2231px;
+}
+
+.country-flag-libya {
+  background-position: 0 -2254px;
+}
+
+.country-flag-liechtenstein {
+  background-position: 0 -2277px;
+}
+
+.country-flag-lithuania {
+  background-position: 0 -2300px;
+}
+
+.country-flag-luxembourg {
+  background-position: 0 -2323px;
+}
+
+.country-flag-macedonia {
+  background-position: 0 -2346px;
+}
+
+.country-flag-madagascar {
+  background-position: 0 -2369px;
+}
+
+.country-flag-malawi {
+  background-position: 0 -2392px;
+}
+
+.country-flag-malaysia {
+  background-position: 0 -2415px;
+}
+
+.country-flag-maldives {
+  background-position: 0 -2438px;
+}
+
+.country-flag-mali {
+  background-position: 0 -2461px;
+}
+
+.country-flag-malta {
+  background-position: 0 -2484px;
+}
+
+.country-flag-marshall-islands {
+  background-position: 0 -2507px;
+}
+
+.country-flag-mauritania {
+  background-position: 0 -2530px;
+}
+
+.country-flag-mauritius {
+  background-position: 0 -2553px;
+}
+
+.country-flag-mexico {
+  background-position: 0 -2576px;
+}
+
+.country-flag-micronesia {
+  background-position: 0 -2599px;
+}
+
+.country-flag-moldova {
+  background-position: 0 -2622px;
+}
+
+.country-flag-monaco {
+  background-position: 0 -2645px;
+}
+
+.country-flag-mongolia {
+  background-position: 0 -2668px;
+}
+
+.country-flag-montenegro {
+  background-position: 0 -2691px;
+}
+
+.country-flag-morocco {
+  background-position: 0 -2714px;
+}
+
+.country-flag-mozambique {
+  background-position: 0 -2737px;
+}
+
+.country-flag-myanmar {
+  background-position: 0 -2760px;
+}
+
+.country-flag-namibia {
+  background-position: 0 -2783px;
+}
+
+.country-flag-nauru {
+  background-position: 0 -2806px;
+}
+
+.country-flag-nepal {
+  background-position: 0 -2829px;
+}
+
+.country-flag-netherlands {
+  background-position: 0 -2852px;
+}
+
+.country-flag-new-zealand {
+  background-position: 0 -2875px;
+}
+
+.country-flag-nicaragua {
+  background-position: 0 -2898px;
+}
+
+.country-flag-nigeria {
+  background-position: 0 -2921px;
+}
+
+.country-flag-niger {
+  background-position: 0 -2944px;
+}
+
+.country-flag-norway {
+  background-position: 0 -2967px;
+}
+
+.country-flag-oman {
+  background-position: 0 -2990px;
+}
+
+.country-flag-pakistan {
+  background-position: 0 -3013px;
+}
+
+.country-flag-palau {
+  background-position: 0 -3036px;
+}
+
+.country-flag-panama {
+  background-position: 0 -3059px;
+}
+
+.country-flag-papua-new-guinea {
+  background-position: 0 -3082px;
+}
+
+.country-flag-paraguay {
+  background-position: 0 -3105px;
+}
+
+.country-flag-peru {
+  background-position: 0 -3128px;
+}
+
+.country-flag-philippines {
+  background-position: 0 -3151px;
+}
+
+.country-flag-poland {
+  background-position: 0 -3174px;
+}
+
+.country-flag-portugal {
+  background-position: 0 -3197px;
+}
+
+.country-flag-qatar {
+  background-position: 0 -3220px;
+}
+
+.country-flag-romania {
+  background-position: 0 -3243px;
+}
+
+.country-flag-russia {
+  background-position: 0 -3266px;
+}
+
+.country-flag-rwanda {
+  background-position: 0 -3289px;
+}
+
+.country-flag-saint-kitts-and-nevis {
+  background-position: 0 -3312px;
+}
+
+.country-flag-saint-lucia {
+  background-position: 0 -3335px;
+}
+
+.country-flag-saint-vincent-and-the-grenadines {
+  background-position: 0 -3358px;
+}
+
+.country-flag-samoa {
+  background-position: 0 -3381px;
+}
+
+.country-flag-san-marino {
+  background-position: 0 -3404px;
+}
+
+.country-flag-sao-tome-and-principe {
+  background-position: 0 -3427px;
+}
+
+.country-flag-saudi-arabia {
+  background-position: 0 -3450px;
+}
+
+.country-flag-senegal {
+  background-position: 0 -3473px;
+}
+
+.country-flag-serbia {
+  background-position: 0 -3496px;
+}
+
+.country-flag-seychelles {
+  background-position: 0 -3519px;
+}
+
+.country-flag-sierra-leone {
+  background-position: 0 -3542px;
+}
+
+.country-flag-singapore {
+  background-position: 0 -3565px;
+}
+
+.country-flag-slovakia {
+  background-position: 0 -3588px;
+}
+
+.country-flag-slovenia {
+  background-position: 0 -3611px;
+}
+
+.country-flag-solomon-islands {
+  background-position: 0 -3634px;
+}
+
+.country-flag-somalia {
+  background-position: 0 -3657px;
+}
+
+.country-flag-south-africa {
+  background-position: 0 -3680px;
+}
+
+.country-flag-south-sudan {
+  background-position: 0 -3703px;
+}
+
+.country-flag-spain {
+  background-position: 0 -3726px;
+}
+
+.country-flag-sri-lanka {
+  background-position: 0 -3749px;
+}
+
+.country-flag-sudan {
+  background-position: 0 -3772px;
+}
+
+.country-flag-suriname {
+  background-position: 0 -3795px;
+}
+
+.country-flag-swaziland {
+  background-position: 0 -3818px;
+}
+
+.country-flag-sweden {
+  background-position: 0 -3841px;
+}
+
+.country-flag-switzerland {
+  background-position: 0 -3864px;
+}
+
+.country-flag-syria {
+  background-position: 0 -3887px;
+}
+
+.country-flag-taiwan {
+  background-position: 0 -3910px;
+}
+
+.country-flag-tajikistan {
+  background-position: 0 -3933px;
+}
+
+.country-flag-tanzania {
+  background-position: 0 -3956px;
+}
+
+.country-flag-thailand {
+  background-position: 0 -3979px;
+}
+
+.country-flag-togo {
+  background-position: 0 -4002px;
+}
+
+.country-flag-tonga {
+  background-position: 0 -4025px;
+}
+
+.country-flag-trinidad-and-tobago {
+  background-position: 0 -4048px;
+}
+
+.country-flag-tunisia {
+  background-position: 0 -4071px;
+}
+
+.country-flag-turkey {
+  background-position: 0 -4094px;
+}
+
+.country-flag-turkmenistan {
+  background-position: 0 -4117px;
+}
+
+.country-flag-tuvalu {
+  background-position: 0 -4140px;
+}
+
+.country-flag-uganda {
+  background-position: 0 -4163px;
+}
+
+.country-flag-ukraine {
+  background-position: 0 -4186px;
+}
+
+.country-flag-united-arab-emirates {
+  background-position: 0 -4209px;
+}
+
+.country-flag-united-kingdom {
+  background-position: 0 -4232px;
+}
+
+.country-flag-united-states {
+  background-position: 0 -4255px;
+}
+
+.country-flag-uruguay {
+  background-position: 0 -4278px;
+}
+
+.country-flag-uzbekistan {
+  background-position: 0 -4301px;
+}
+
+.country-flag-vanuatu {
+  background-position: 0 -4324px;
+}
+
+.country-flag-vatican-city {
+  background-position: 0 -4347px;
+}
+
+.country-flag-venezuela {
+  background-position: 0 -4370px;
+}
+
+.country-flag-vietnam {
+  background-position: 0 -4393px;
+}
+
+.country-flag-yemen {
+  background-position: 0 -4416px;
+}
+
+.country-flag-zambia {
+  background-position: 0 -4439px;
+}
+
+.country-flag-zimbabwe {
+  background-position: 0 -4462px;
+}
+
+.country-flag-unknown {
+  background-position: 0 -4486px;
+}
+
+.country-flag-europe {
+  background-position: 0 -4510px;
+}

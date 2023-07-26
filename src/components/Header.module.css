@@ -1,0 +1,228 @@
+header {
+  background-color: #292c34;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 20px;
+  padding: 10px 0;
+  gap: 10px;
+  flex-wrap: nowrap;
+  white-space: nowrap;
+  box-sizing: border-box;
+}
+
+.logo img {
+  max-height: 40px;
+  max-width: 40px;
+  transition: transform 0.1s ease;
+}
+
+.logo img:hover {
+  transform: scale(1.1);
+}
+
+.searchBar {
+  flex-grow: 1;
+  flex-shrink: 1;
+  max-width: 600px;
+  align-items: center;
+  justify-content: center;
+}
+
+.searchForm {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.searchBar input {
+  flex: 1;
+  min-width: 0;
+  height: 40px;
+  padding: 10px 40px 10px 20px;
+  border-radius: 32px;
+  background-color: #3c3f46;
+  border: #50556e 2px solid;
+  color: #fff;
+  line-height: 1.5;
+  box-sizing: border-box;
+  font-size: 14px;
+  transition: border-color 0.1s ease, background-color 0.1s ease;
+}
+
+.searchBar input:hover,
+.searchForm:hover input,
+.searchForm:focus-within input {
+  border-color: #626988;
+}
+
+.searchBar input:focus {
+  border-color: #626988;
+  outline: none;
+}
+
+.searchBar input::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.searchBar button {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 5px;
+  border-radius: 50%;
+  border: none;
+  background: transparent;
+  color: white;
+}
+
+.searchBar button svg {
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+}
+
+.signIn {
+  position: relative;
+  padding: 10px 20px;
+  border-radius: 3px;
+  width: fit-content;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #3281ac;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  color: #ffffffee;
+  font-family: Arial, sans-serif;
+  border: none;
+  flex-shrink: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.signIn::before,
+.signIn::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  transition: opacity 0.1s ease-in-out, border-color 0.1s ease;
+  z-index: 0;
+}
+
+.signIn::before {
+  background: linear-gradient(90deg, #3281ac, #4e9bce);
+  opacity: 1;
+}
+
+.signIn::after {
+  background: linear-gradient(90deg, #171a21, #3c3f46);
+  opacity: 0;
+}
+
+.signIn:hover::before {
+  opacity: 0;
+}
+
+.signIn:hover::after {
+  opacity: 1;
+  border: #494d63 2px solid;
+}
+
+.signIn span {
+  display: flex;
+  position: relative;
+  align-items: center;
+  z-index: 1;
+  gap: 10px;
+}
+
+.signIn span svg {
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+}
+
+.userActions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.addCircle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #3c3f46;
+  color: #fff;
+  transition: background-color 0.1s ease;
+}
+
+.addCircle:hover {
+  background-color: #50556e;
+}
+
+.addCircle svg {
+  width: 20px;
+  height: 20px;
+}
+
+.userProfile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.userProfile:hover .profilePicture {
+  border-color: #626988;
+}
+
+.profilePicture {
+  width: 40px;
+  height: 40px;
+  min-width: 40px;
+  min-height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: #50556e 2px solid;
+  transition: border 0.1s ease;
+}
+
+.loadingSearchBar {
+  height: 40px;
+  border-radius: 32px;
+  background-color: #3c3f46;
+}
+
+.loadingProfilePicture {
+  width: 40px;
+  height: 40px;
+  min-width: 40px;
+  min-height: 40px;
+  border-radius: 50%;
+  background-color: #3c3f46;
+}
+
+@media (max-width: 600px) {
+  nav {
+    margin: 0 8px;
+  }
+
+  .searchBar input {
+    padding: 10px;
+  }
+}

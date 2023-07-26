@@ -1,0 +1,86 @@
+.teamCard {
+  position: relative;
+  width: 190px;
+  min-height: 200px;
+  background-color: #1c1c1c;
+  padding: 30px;
+  border-radius: 30px;
+  cursor: pointer;
+  text-align: center;
+  color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.1s ease-in-out;
+}
+
+.teamCard:hover,
+.teamCard:focus-visible {
+  transform: scale(1.02);
+  background-color: #333;
+}
+
+.image {
+  width: 100px;
+  height: 100px;
+  min-height: 100px;
+  min-width: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid #bbb;
+  margin-bottom: 10px;
+}
+
+.nameContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px 0;
+  gap: 5px;
+}
+
+.title {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 1rem;
+}
+
+.updateTime {
+  position: absolute;
+  display: flex;
+  top: 10px;
+  right: 10px;
+  font-size: 0.8rem;
+  color: #bbb;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  align-items: center;
+  gap: 5px;
+}
+
+.updateTime svg {
+  height: 10px;
+  width: 10px;
+}
+
+.infoContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.country {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.rank img {
+  height: 23px;
+}
+
+.verifiedCheck {
+  color: #FF8100;
+  font-size: 1rem;
+}

@@ -1,0 +1,63 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.pageContainer {
+  width: 100%;
+  flex-direction: row;
+}
+
+form {
+  max-width: 1200px;
+  width: 100%;
+}
+
+.profileTitle {
+  display: flex;
+  align-items: flex-end;
+}
+
+.profileTitleContainer {
+  flex-direction: column;
+}
+
+.avatar {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  border: #50556e 2px solid;
+}
+
+.username,
+.username a {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+
+.username span {
+  font-size: 20px;
+}
+
+.verifiedCheck {
+  color: #FF8100;
+  font-size: 1.5rem;
+}
+
+pre {
+  white-space: pre-wrap;
+}
+
+textarea {
+  resize: vertical;
+}
+
+@media (max-width: 600px) {
+  .avatar {
+    height: 120px;
+    width: 120px;
+  }
+}
